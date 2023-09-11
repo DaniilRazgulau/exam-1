@@ -1,5 +1,36 @@
 @media (max-width: 1280px){
     .section-1__wrapper{
-        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .section-1__fruits{
+        margin: 0 auto;
+    }
+
+    .section-1__vegetables{
+        margin: 0 auto;
+    }
+
+    .organic__img img{
+        width: 600px;
+    }
+
+    .Products__block__items{
+        grid-template-columns: auto auto;
+    }
+
+    .Product__block__content__btn{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Product__block__content img{
+        justify-content: center;
+    }
+
+    .registration__bg{
+        border-radius: 30px;
     }
 }
