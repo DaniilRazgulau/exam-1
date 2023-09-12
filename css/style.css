@@ -299,6 +299,10 @@ body{
     font-weight: 700;
 }
 
+.Product__block__content__btn:hover{
+    background: #335b6b;
+}
+
 .Product__block__content h2{
     font-size: 22px;
     line-height: 35.2px;
@@ -537,78 +541,60 @@ body{
     margin-bottom: 9px;
 }
 
-.section-2{
-    margin: 140px 0;
-}
-
-.section-2__wrapper{
-    display: flex;
-}
-
-.section-2__fruit-juice{
-    background-image: url(../images/fruit-juice.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 0;
-}
-
-.section-2__content__block-1{
-    color: #274C5B;
-    background-color: #fff;
-    padding: 30px 79px 30px 79px;
-    border-radius: 20px;
-    font-size: 25px;
-    line-height: 35px;
-    font-weight: 700;
-}
-
-.section-2__content-1{
-    margin: 242px 89px 242px 90px;
-}
-
-.section-2__organic-food{
-    background-image: url(../images/organic-food.png);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-
-.section-2__content__block-2{
-    color: #274C5B;
-    background-color: #fff;
-    padding: 30px 80px 30px 79px;
-    border-radius: 20px;
-    font-size: 25px;
-    line-height: 35px;
-    font-weight: 700;
-}
-
-.section-2__content-2{
-    margin: 243px 74px 242px 73px;
-}
-
-.section-2__nuts-cookies{
-    background-image: url(../images/nuts-cookies.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 0;
-}
-
-.section-2__content__block-3{
-    color: #274C5B;
-    background-color: #fff;
-    padding: 30px 81px 30px 82px;
-    border-radius: 20px;
-    font-size: 25px;
-    line-height: 35px;
-    font-weight: 700;
-}
-
-.section-2__content-3{
-    margin: 243px 74px 242px 74px;
-}
-
 .registration{
     padding-top: 31px;
+}
+
+.section-2 {
+    background: #EFF6F1;
+}
+
+.section-2 .container{
+    max-width: 1440px;
+    width: 100%;
+}
+
+.section-2__wrapper {
+    padding: 140px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2__item {
+    width: 460px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2__item:nth-child(1) {
+    background: url(../images/fruit-juice.png) no-repeat left top;
+}
+
+.section-2__item:nth-child(2) {
+    background: url(../images/organic-food.png) no-repeat left top;
+}
+
+.section-2__item:nth-child(3) {
+    background: url(../images/nuts-cookies.png) no-repeat left top;
+}
+
+.section-2__item__link {
+    text-decoration: none;
+    padding: 30px 80px;
+    background: #fff;
+    border-radius: 20px;
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.36px;
 }
 
 .registration__bg{

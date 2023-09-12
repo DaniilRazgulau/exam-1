@@ -34,3 +34,41 @@
         border-radius: 30px;
     }
 }
+
+@media (max-width: 1152px){
+    .organic__content__clean,
+    .organic__content__post{
+        display: none;
+    }
+
+    .organic__content__clean__text,
+    .organic__content__post__text{
+        margin-left: auto;
+    }
+
+    .organic__content{
+        width: 450px;
+    }
+
+    .organic__content h1{
+        width: 450px;
+    }
+
+    .organic__content__1,
+    .organic__content__2{
+        margin-bottom: 20px;
+    }
+
+    .eco-friendly{
+        background-size: 100%;
+    }
+
+    .eco-friendly__content{
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px){
+    
+}
