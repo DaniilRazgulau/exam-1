@@ -122,3 +122,13 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 768px){
+    .eco-friendly{
+        background-image: none;
+    }
+
+    .eco-friendly__content{
+        left: 50px;
+    }
+}
