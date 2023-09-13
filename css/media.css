@@ -88,3 +88,37 @@
         padding-bottom: 100px;
     }
 }
+
+@media (max-width: 800px){
+    .Products__block__items{
+        grid-template-columns: auto;
+        margin-bottom: 0;
+    }
+
+    .Product__block__content{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .registration__content__right{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .registration__btn{
+        margin-top: 20px;
+    }
+
+    .testimonial__content p{
+        width: 700px;
+    }
+
+    .Hazelnut{
+        margin-bottom: 100px;
+    }
+
+    .header__top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
