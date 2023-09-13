@@ -70,5 +70,21 @@
 }
 
 @media (max-width: 1024px){
-    
+    .header__nav{
+        margin-left: 50px;
+    }
+
+    .organic__img img{
+        display: none;
+    }
+
+    .organic__wrapper{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .testimonial__items{
+        grid-template-columns: auto auto;
+        padding-bottom: 100px;
+    }
 }
